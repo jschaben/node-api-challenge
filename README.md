@@ -40,13 +40,23 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 - [ ] Mention two parts of Express that you learned about this week.
 
+The first part about Express that I learned so far is middleware. Especially custon middleware that helps keep things very organized. The second part I learned that I really like is routing with express. It keeps things organized, so being able to compartmentalize all the endpoints makes it much easier to find specific pieces and work on them.
+
 - [ ] Describe Middleware?
+
+Middleware are special functions that we can create that can act as "gatekeepers", or can even manipulate requests that come through the server process. They can either say, "this request is good, go to next();, or it can hault the request there, due to specifications and return it with an error.
 
 - [ ] Describe a Resource?
 
+A resource is a general term for any database object. It is a type of object that the database uses to store and send out via responses.
+
 - [ ] What can the API return to help clients know if a request was successful?
 
+The API should return a status code (200, 400, etc...) to let clients know the request was successful or failed. They can even send success messages in the form of .json.
+
 - [ ] How can we partition our application into sub-applications?
+
+ Express routing is a way to partition our application into sub-applications. It creates specific files that manage each set of endpoints at a specific url. It makes it easier to find, manage and edit changes to a specific endpoint or data set.
 
 ## Minimum Viable Product
 

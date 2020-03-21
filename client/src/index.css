@@ -1,3 +1,7 @@
+html {
+  background-color: dimgray;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +14,27 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+form {
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+.projects-container {
+  width: 90%;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-flow: row wrap;
+}
+
+.project {
+  border: 1px solid grey;
+  width: 25%;
+  height: auto;
+  margin: 2%;
+  padding: 2%;
+  background-color: deepskyblue;
 }
